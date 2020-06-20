@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+
+<style>
+#myObject {}
+
+
+
+</style>
+<style type="text/css">
+<!--
+.outer, .inner {
+border: 1px solid black;
+}
+-->
+</style>
+
+
+<body>
+<script language="JavaScript">
+function redirect(where){
+	if(where =='program'){
+		document.f1.action='program2.htm';
+	}
+	if(where =='objective'){
+		document.f1.action='objective.htm';
+	}
+	if(where =='strategy'){
+		document.f1.action='program.htm';
+	}
+	
+}
+
+function shide() {
+myObject.style.display='none';
+}
+
+function sshow() {
+myObject.style.display='';
+}
+</script>
+<form name ="f1" action="strategy.htm">
+<table>
+<tr>
+<td>Program Goal:</td>
+<td width="30"></td>
+<td>Program Goal 2: Decrease the social acceptability of tobacco use</td> <td><button  onclick="redirect('program'); submit();">Back to New Goals</button></td>
+</tr>
+<tr><td><br></td></tr>
+<tr >
+<td valign="top">Objective:</td>
+<td></td>
+<td colspan=2><table>
+	<tr><td><input type="Radio" name="objecive"></td><td>Obj 2A Increase anti-tobacco attitude among youth and adults
+	<tr><td><input type="Radio" name="objecive"></td><td>Obj 2B Reduce tobacco sponsorship of sporting, cultural, entertainment and other events in the community, region and state</td></td>
+	<tr><td><input type="Radio" name="objecive"></td><td>Obj 2C	Reduce tobacco use and promotion in movies, arts, and entertainment</td></tr>
+	<tr><td><input type="Radio" name="objecive"></td><td>Obj 2D	Reduce the proportion of retailers that post point-of-purchase tobacco advertising</td></tr>
+</tr></table</td>
+</tr>
+
+
+</table>
+<br><br>
+<div align="center"><input type="Submit"  value="Submit Data"></div>
+</form>
+</body>
+</html>

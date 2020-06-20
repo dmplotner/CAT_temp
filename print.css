@@ -1,0 +1,48 @@
+table, td{
+font-family: Tahoma, sans-serif;
+font-size: 10pt;
+}
+
+th{
+font-family: Tahoma, sans-serif;
+font-size: 12pt;
+}
+
+caption{
+font-family: Tahoma, sans-serif;
+font-size: 14pt;
+font-weight: bold;
+}
+
+Body{
+width:100%;
+background:#FFFFFF;
+border-top: 0;
+margin: .1in ;
+padding: 0; 
+
+
+}
+
+td {
+ 	padding: 5px;/*Pads each table cell in modern browsers*/
+ }
+
+#page {
+width:100%;
+background:#FFFFFF;
+border-top: 0;
+margin: 0;
+padding: 0; 
+}
+
+.head1{
+font-size: 12pt;
+}
+
+/*
+  Hide unnecessary selectors.
+*/
+.NavBar, .NavBox, FORM.Search{
+  display:          none;
+}

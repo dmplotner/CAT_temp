@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+
+<style>
+#myObject {}
+
+
+
+</style>
+<style type="text/css">
+<!--
+.outer, .inner {
+border: 1px solid black;
+}
+-->
+</style>
+
+
+<body>
+<script language="JavaScript">
+
+
+function shide() {
+myObject.style.display='none';
+}
+
+function sshow() {
+myObject.style.display='';
+}
+</script>
+<form action="">
+<table>
+<tr>
+<td>Program Goal:</td>
+<td width="30"></td>
+<td><select title="goal">
+	<option>Program Goal 1: Eliminate exposure to second-hand-smoke (SHS)
+	<option>Program Goal 3: Promote Cessation from tobacco use
+</select></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td>Objective:</td>
+<td></td>
+<td><select title="objective">
+	<option>Obj 2A Increase anti-tobacco attitude among youth and adults
+	<option>Obj 2B Reduce tobacco sponsorship of sporting, cultural, entertainment and other events in the community, region and state
+</select></td>
+</tr>
+
+<tr><td><br></td></tr>
+<tr>
+<td>Strategy:</td>
+<td></td>
+<td><select title="strategy" >
+	<option>Act 2A.1 TCP to issue RFA and work with media contractor to implement effective counter-marketing campaigns to counter tobacco promotional activities
+	<option>Act 2A.2 TCP to work with media contractor to inmplement effective media and public relations strategies to educate consumers about their tobacco products (low tar, filter vents, filter fiber fallout, menthol and other additives)
+</select></td>
+</tr>
+
+<tr><td><br></td></tr>
+<tr>
+<td valign="top">Outcome:</td>
+<td></td>
+<td><textarea name="outcome" cols="80" rows="4"></textarea></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td>Activity:</td>
+<td></td>
+<td><select title="Activity" >
+	<option>Act 2A1.1 CP to work with media contractors to <br>extend and enhance the statewide campaign locally and to maximize media coverage of local anti tobacco promotion activities
+	<option>Act 2A1.2 YP to work with media contractor to <br>extend and enhance reach of the statewide campaign to youth
+</select></td>
+</tr>
+<tr><td><br></td></tr>
+</table>
+<br>
+<table>
+<tr>
+<td>Target Organizations:</td>
+<td></td>
+<td><select title="torg" >
+	<option>Business/Merchants
+	<option>Colleges/Universities
+</select></td>
+</tr>
+
+<tr>
+<td>Target Populations:</td>
+<td></td>
+<td><select title="tpop" >
+	<option>American Indian or Alaska Native
+	<option>Asian maerican or Pacific Islander
+</select></td>
+</tr>
+
+<tr>
+<td>Proposed Populations:</td>
+<td></td>
+<td><select title="torg" >
+	<option>American Indian or Alaska Native
+	<option>Asian American or Pacific Islander
+</select></td>
+</tr>
+
+<tr>
+<td>Proposed Partners:</td>
+<td></td>
+<td><select title="torg" >
+	<option>Advisory Board/Group
+	<option>Coalition: Local
+</select></td>
+</tr>
+
+<tr>
+<td colspan="3">
+<table border="1">
+<tr><th colspan=3>Time Line (PAAP-revised)</th></tr>
+<tr><td>Startdate: <input type="Text" size="10"></td><td>End date: <input type="Text" size="10"></td><td>Ongoing?<input type="Checkbox"></td></tr>
+</table>
+</td>
+</tr>
+
+<tr><td>Proposed Evaluation:</td><td><input type="Radio" name="hide" onclick="sshow();" value="1">Yes</td><td><input type="Radio" name="hide" onclick="shide();" value="0">No</td></tr>
+
+
+<tr>
+<td colspan="3"><div id="myObject">
+<table border=0 class="outer">
+<tr><td>Evaluation Question:</td><td><textarea cols="60" rows="4"></textarea></td></tr>
+<tr><td>Evidence/Datasources:</td><td><textarea cols="60" rows="4"></textarea></td></tr>
+<tr><td>Data collection method</td><td><select title="torg" >
+	<option>Survey - telephone
+	<option>Survey - mail
+</select></td></tr>
+<tr><td>Data collection measurement tool(s)</td><td><select title="torg" >
+	<option>Questionnaire
+	<option>Focus group protocol
+</select></td></tr>
+<tr><td>Sample selection method </td><td><select title="torg" >
+	<option>Questionnaire
+	<option>Focus group protocol
+</select></td></tr>
+<tr><td>Timeframe: </td><td>Startdate&nbsp;<input type="Text" size="10">&nbsp;&nbsp;&nbsp;&nbsp;Enddate&nbsp;<input type="Text" size="10"></td></tr>
+<tr><td>Data analysis method</td><td><select title="torg" >
+	<option>Descriptive statistics - means, range ... for each question
+	<option>Qualitative summaries of main tendancies for each questions
+</select></td></tr>
+<tr><td>Report dissemination method</td><td><select title="torg" >
+	<option>&nbsp;&nbsp;&nbsp;&nbsp;
+	<option>
+</select></td></tr>
+<tr><td>Report dissemination target audience</td><td><select title="torg" >
+	<option>American Indian or Alaska Native
+	<option>Asian maerican or Pacific Islander
+</select></td></tr>
+</table>
+
+</div></td>
+</tr>
+</table>
+<br><br>
+<div align="center"><input type="Submit"  value="Submit Data"></div>
+</form>
+</body>
+</html>
